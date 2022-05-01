@@ -11,4 +11,11 @@ public class CiCdDemoController {
     public String index(){
         return "Hello World from SpringBoot";
     }
+
+
+    @RequestMapping(value = "/another", method = RequestMethod.GET)
+    public String index2(){
+        return "Another Hello World from SpringBoot";
+    }
+
 }
